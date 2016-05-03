@@ -1,0 +1,30 @@
+{
+  "name": "mod-yoyo-base",
+  "version": "0.1.0",
+  "description": "Primeras pruebas con yo-yo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovnion/Mod-yoyo-Base.git"
+  },
+  "keywords": [
+    "yo-yo",
+    "virtualdom"
+  ],
+  "author": "Santiago Gil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ovnion/Mod-yoyo-Base/issues"
+  },
+  "homepage": "https://github.com/ovnion/Mod-yoyo-Base#readme",
+  "dependencies": {
+    "yo-yo": "^1.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  }
+}
